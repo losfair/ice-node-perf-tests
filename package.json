@@ -1,0 +1,36 @@
+{
+  "name": "ice-node-perf-tests",
+  "version": "0.1.0",
+  "description": "Ice-node performance tests",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losfair/ice-node-perf-tests.git"
+  },
+  "keywords": [
+    "ice",
+    "node",
+    "performance",
+    "test",
+    "web",
+    "http"
+  ],
+  "author": "Heyang Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/losfair/ice-node-perf-tests/issues"
+  },
+  "homepage": "https://github.com/losfair/ice-node-perf-tests#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "ice-node": "^0.1.3",
+    "mongodb": "^2.2.30",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
